@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <script defer src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="body-container">
+        <nav>
+            <h3 class="btn-watch active">Watch</h3>
+            <h3 class="btn-stopwatch">StopWatch</h3>
+            <h3 class="btn-timer  hidden">Timer</h3>
+        </nav>
+
+        <section class="watch active-body ">
+            <h1 class="hours">00</h1>
+            <h1 class="minutes">00</h1>
+            <h1 class="seconds">00</h1>
+            <p>Hours</p>
+            <p>Minutes</p>
+            <p>Seconds</p>
+        </section>
+
+        <section class="stopwatch hidden">
+            <article class="article-1 active-body">
+                <h1 class="stop-minutes">00 : </h1>
+            <h1 class="stop-seconds">00 .</h1>
+            <h1 class="stop-miliseconds">00</h1>
+            </article>
+            <article class="article-btn">
+                <button class="btn btn-stop hidden">Stop</button>
+                <button class="btn btn-start btn-large" >Start</button>
+            <button class="btn btn-reset hidden">Reset</button>
+        </article>
+        </section>
+
+        <section class="timer hidden">
+            <article class="timer-article active-body">
+            <h1><span class="timer-hours" contenteditable="true">00</span> :</h1> 
+            <h1><span class="timer-minutes" contenteditable="true">00</span> :</h1> 
+            <h1><span class="timer-seconds" contenteditable="true">00</span></h1>
+            <p>Hours</p>
+            <p>Minutes</p>
+            <p>Seconds</p>
+        </article>
+
+        <article class="btn-timer-article">
+            <button class="btn btn-large btn-start-timer">Start</button>
+            <button class="btn hidden btn-stop-timer">Stop</button>
+            <button class="btn hidden btn-reset-timer">Reset</button>
+        </article>
+        </section>
+    </div>
+</body>
+</html>
